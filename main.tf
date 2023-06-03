@@ -1,5 +1,5 @@
 resource "aws_instance" "my_vm" {
- ami           = var.ami //Ubuntu AMI
+ ami           = var.ami
  instance_type = var.instance_type
 
  tags = {
@@ -8,10 +8,10 @@ resource "aws_instance" "my_vm" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
+  bucket = "mybamuh12444"
 
   tags = {
-    Name        = "Mybamuh"
+    Name        = "mybamuh"
     Environment = "Dev"
   }
 }
